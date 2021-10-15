@@ -33,7 +33,7 @@ public class DatabaseManager {
     public static ArrayList<Integer> number = new ArrayList<>();
     public static ArrayList<Integer> date = new ArrayList<>();
     public static ArrayList<Integer> dateMonth = new ArrayList<>();
-     public static ArrayList<Integer> numberGeneral = new ArrayList<>();
+    public static ArrayList<Integer> numberGeneral = new ArrayList<>();
     public static ArrayList<Integer> dateGeneral = new ArrayList<>();
     public DatabaseManager(){
         Class driver_class=null; 
