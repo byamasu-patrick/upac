@@ -96,7 +96,7 @@ public class StudentDetailMaladie extends javax.swing.JDialog {
         jPanel1.add(fullname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 360, 37));
 
         faculte.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        faculte.setText("Faculte de Science");
+        faculte.setText("Faculté de Science");
         jPanel1.add(faculte, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 286, 24));
 
         active.setBackground(new java.awt.Color(77, 56, 91));
@@ -144,7 +144,7 @@ public class StudentDetailMaladie extends javax.swing.JDialog {
                 UniversalMethod.getCurrentDateAndTime()
         );
         this.dispose();
-        JOptionPane.showMessageDialog(null, "Payement Confirme "+ student.get(rowId).getFullname());
+        JOptionPane.showMessageDialog(null, "Payement Confirmé "+ student.get(rowId).getFullname());
         
     }//GEN-LAST:event_activeActionPerformed
 

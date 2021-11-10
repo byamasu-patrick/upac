@@ -69,7 +69,7 @@ public class AcceuilFrame extends javax.swing.JFrame {
             }
         });
 
-        frais_academique.setText("Frais Academique");
+        frais_academique.setText("Frais Académique");
         frais_academique.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 frais_academiqueActionPerformed(evt);
@@ -90,7 +90,7 @@ public class AcceuilFrame extends javax.swing.JFrame {
             }
         });
 
-        securite.setText("Securitte");
+        securite.setText("Securité");
         securite.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 securiteActionPerformed(evt);
@@ -144,7 +144,7 @@ public class AcceuilFrame extends javax.swing.JFrame {
 
         jMenu1.setText("File");
 
-        jMenuItem1.setText("Quiter");
+        jMenuItem1.setText("Quitter");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
